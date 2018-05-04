@@ -31,11 +31,10 @@ public function stringMerge($a,$b){
                 }
             }
            $r =  implode('',$result);
-           if(!empty($l)){
+           if(!empty($extra_length)){
             return $r.''.$extra_length;
            }else{
-               return 
-		$extra_length
+               return $extra_length;
            }
 
 
